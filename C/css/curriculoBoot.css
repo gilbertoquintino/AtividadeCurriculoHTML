@@ -1,0 +1,49 @@
+:root {
+    --corBranca: #ffffff;
+    --corPreta: #010707;
+    --cor1: #eceff1;
+    --cor2: #5c90b3;
+    --cor3: #003049;
+    --cor4: #d62828;
+    --cor5: #2a9d8f;
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+h1, h2, h3 {
+    color: var(--cor3);
+}
+
+footer {
+    background-color: var(--cor5);
+    color: var(--corBranca);
+}
+
+#menuGilberto {
+    background-color: var(--cor3);
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+a.menuGilberto {
+    color: var(--corBranca);
+    font-weight: bold;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+a.menuGilberto:hover {
+    background-color: var(--cor4);
+    color: var(--corBranca);
+}
